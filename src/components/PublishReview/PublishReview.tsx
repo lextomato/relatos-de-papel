@@ -36,7 +36,7 @@ const PublishReview: React.FC = () => {
               name="simple-controlled"
               size="large"
               value={rating}
-              onChange={(event, newValue) => {
+              onChange={(_, newValue) => {
                 setRating(newValue);
               }}
             />
