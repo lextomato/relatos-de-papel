@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
-import "./addressCard.css";
+import "./AddressCard.css";
 import { AddressCardProps } from "../../../interfaces/Checkout";
 
 const AddressCard: React.FC<AddressCardProps> = ({
