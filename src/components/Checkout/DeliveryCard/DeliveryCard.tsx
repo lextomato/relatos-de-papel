@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent, Typography, Radio, Box, Chip } from "@mui/material";
-import "./deliveryCard.css";
+import "./DeliveryCard.css";
 import { DeliveryCardProps } from "../../../interfaces/Checkout";
 
 const DeliveryCard: React.FC<DeliveryCardProps> = ({
