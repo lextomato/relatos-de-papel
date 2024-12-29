@@ -1,0 +1,47 @@
+.latest-reviews {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.latest-reviews__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
+.latest-reviews__avatar {
+    margin-right: 1rem;
+    border-radius: 100%;
+}
+
+.latest-reviews__author {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #757575;
+    margin-top: auto !important;
+    margin-bottom: 0.5rem;
+}
+
+.latest-reviews__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.latest-reviews__rating {
+    font-size: 1rem;
+    color: #ff9800;
+    margin-bottom: 0.5rem;
+}
+
+.latest-reviews__text {
+    font-size: 1rem;
+    color: #333;
+}

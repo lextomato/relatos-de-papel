@@ -1,0 +1,20 @@
+.address-card {
+    border-radius: 7px !important;
+    background-color: #f8f8f8 !important;
+}
+
+.address-card__content {
+    display: flex;
+}
+
+.address-card__content-input {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.address-card__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

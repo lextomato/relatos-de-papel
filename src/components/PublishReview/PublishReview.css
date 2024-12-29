@@ -1,0 +1,23 @@
+.publish-review {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
+.publish-review__input {
+    border: 2px solid rgb(124, 124, 124);
+    border-radius: 0.5rem;
+}
+
+.publish-review__input-base {
+    width: 100%;
+    color: inherit;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+}
+
+.publish-review__input-base .MuiInputBase-input {
+    padding: 8px 8px 8px 16px;
+    transition: width 0.3s;
+}

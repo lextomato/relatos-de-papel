@@ -1,0 +1,21 @@
+.product-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 7px !important;
+}
+
+.product-item__image {
+    position: relative;
+}
+
+.product-item__price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 7px 0;
+}
+
+.product-item__content {
+    background-color: #FDF0E0;
+}

@@ -1,0 +1,15 @@
+.delivery-card {
+    border-radius: 7px !important;
+    background-color: #f8f8f8 !important;
+}
+
+.delivery-card__content {
+    display: flex;
+    align-items: center;
+}
+
+.delivery-card__content-input {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
