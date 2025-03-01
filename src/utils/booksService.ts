@@ -13,7 +13,10 @@ function formatBookData(data: any): Book {
 }
 
 export const getBooks = async (queryParams?: URLSearchParams) => {
-  let url = import.meta.env.VITE_API_URL + "/buscador/books";
+  const envApiUrl =
+    import.meta.env.VITE_API_URL ??
+    "https://relatos-de-papel-buscador-production.up.railway.app";
+  let url = envApiUrl + "/books";
   if (queryParams) url = url + "?" + queryParams.toString();
   const response = await fetch(url);
   if (!response.ok) {
