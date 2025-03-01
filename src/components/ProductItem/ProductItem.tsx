@@ -5,6 +5,7 @@ import {
   CardContent,
   Typography,
   Button,
+  Chip,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "./productItem.css";
@@ -40,6 +41,16 @@ const ProductItem: React.FC<ProductItemProps> = ({ book }) => {
           </Typography>
         </div>
         <CardContent className="product-item__content">
+          <Chip
+            label={book.category}
+            sx={{
+              backgroundColor: "black",
+              color: "white",
+              marginBottom: 1,
+              fontSize: 10,
+              padding: 0,
+            }}
+          />
           <Typography gutterBottom variant="body2" component="div">
             {book.title}
           </Typography>

@@ -6,6 +6,19 @@ export interface Book {
   author: string;
   price: number;
   image: string;
+  category: string;
+}
+
+export interface FilterOptions {
+  category?: string;
+  author?: string;
+  title?: string;
+}
+
+export interface Aggs {
+  key: string;
+  count: number;
+  uri: string;
 }
 
 export interface ProductItemProps {

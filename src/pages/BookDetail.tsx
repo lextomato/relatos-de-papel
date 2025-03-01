@@ -71,11 +71,7 @@ const BookDetail: React.FC = () => {
               {book.title}
             </Typography>
             <Chip
-              label="Aventura"
-              sx={{ backgroundColor: "#c3fdd5", color: "#007c26", mr: 1 }}
-            />
-            <Chip
-              label="Ficción"
+              label={book.category}
               sx={{ backgroundColor: "#c3fdd5", color: "#007c26", mr: 1 }}
             />
 
